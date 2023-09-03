@@ -51,11 +51,11 @@ maintainer:
   > "auto_commit_$(expr $RANDOM)$(expr $RANDOM)$(expr $RANDOM).yml"
 
     i=$((i+1))
-    
+
     # Adding git commit
     git add .
     git commit --message "Automatic update $GITHUB_REPO:$(expr $RANDOM)"
 
     # Pushing git commit
-    git push 
+    git push
 done
