@@ -1,0 +1,12 @@
+project:
+  name: "My Awesome Project Number: $(expr $RANDOM)"
+  description: "A project to demonstrate the power of SHELL scripts."
+  version: "v$(expr $RANDOM % 10).$(expr $RANDOM % 10).$(expr $RANDOM % 10)"
+  repository:
+    type: "git"
+    url: "https://github.com/$GITHUB_USER_NAME/$GITHUB_REPO.git"
+
+maintainer:
+  name: "$GITHUB_USER_NAME"
+  email: "$GITHUB_USER_EMAIL"
+  role: "Devops and Cloud Infrastructure Analyst"
