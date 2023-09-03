@@ -31,7 +31,7 @@ else
 fi
 
 # Creating new random files 
-cd $GITHUB_USER_NAME/auto-commits
+cd $GITHUB_REPO/auto-commits
 i=1
 while [ $i -le $commits ]
 do
@@ -54,7 +54,7 @@ maintainer:
 
     # Adding git commit
     git add auto_commit_*
-    git commit --message "Automatic update $GITHUB_REPO:$(expr $RANDOM)"
+    git commit --message "Automatic update $GITHUB_REPO: $(expr $RANDOM)"
 
     # Pushing git commit
     git push
