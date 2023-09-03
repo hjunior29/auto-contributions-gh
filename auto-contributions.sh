@@ -53,7 +53,7 @@ maintainer:
     i=$((i+1))
 
     # Adding git commit
-    git add .
+    git add auto_commit_*
     git commit --message "Automatic update $GITHUB_REPO:$(expr $RANDOM)"
 
     # Pushing git commit

@@ -9,4 +9,4 @@ WORKDIR /script
 
 COPY . .
 
-# ENTRYPOINT [ "auto-contributions.sh" ]
+ENTRYPOINT [ "auto-contributions.sh" ]
