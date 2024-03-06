@@ -1,0 +1,12 @@
+project:
+  name: "My Awesome Project Number: 28336"
+  description: "A project to demonstrate the power of SHELL scripts."
+  version: "v8.9.9"
+  repository:
+    type: "git"
+    url: "https://github.com/hjunior29/auto-contributions-gh.git"
+
+maintainer:
+  name: "hjunior29"
+  email: "helderjuniorsilvalima@gmail.com"
+  role: "Devops and Cloud Infrastructure Analyst"
